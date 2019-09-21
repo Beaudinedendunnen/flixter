@@ -13,16 +13,19 @@
 
 .frosty {
   background: rgba(0, 0, 0, 0.5);
-  font-family: "Helvetica Neue", Helvetica;
+  //font for text (no headers/titles)
+  font-family: 'Open Sans', sans-serif;
   color: white;
   padding: 20px;
 
   h1 {
+    font-family: 'Alegreya', serif;
     font-weight: 100;
     text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
   }
 
   h2 {
+    font-family: 'Alegreya', serif;
     font-weight: 100;
     text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
   }
@@ -30,4 +33,10 @@
 
 .btn {
   border-radius: 0;
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
 }

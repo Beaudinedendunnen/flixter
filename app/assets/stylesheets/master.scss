@@ -1,4 +1,10 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Open+Sans&display=swap');
+
+body {
+  background: image_url('bg.png');
+  font-family: 'Open Sans', sans-serif;
+}
 
 .navbar {
   font-family: "Helvetica Neue", Helvetica;
@@ -28,4 +34,5 @@
 
 h1, h2, h3, h4, h5, h6, .navbar {
   margin: 0;
+  font-family: 'Alegreya', serif;
 }
