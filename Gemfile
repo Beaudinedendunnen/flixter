@@ -68,4 +68,8 @@ gem 'bootstrap'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether'
-end 
+end
+
+gem 'simple_form'
+
+gem 'devise'
