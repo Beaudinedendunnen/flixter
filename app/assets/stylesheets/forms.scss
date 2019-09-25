@@ -29,8 +29,8 @@ text-decoration: none;
   display: inline-block;
   font-size: 16px;
   border-radius: 4px;
-  padding: 0px;
-  margin: 0px;
+  padding: 10px;
+  margin: 10px;
 
   input{
     padding: 10px;
@@ -40,4 +40,22 @@ text-decoration: none;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     cursor: pointer;
   }
+}
+
+.btn-primary {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
 }
